@@ -1,0 +1,32 @@
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  color: #ffffff;
+  background: #171717;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background: #333333;
+}
+
+.button:focus-visible {
+  outline: 3px solid #6c5ce7;
+  outline-offset: 3px;
+}
+
+.button--small {
+  padding: 8px 14px;
+  font-size: 0.9rem;
+}
+
+.button--accent {
+  background: #6c5ce7;
+}
+
+.button--accent:hover {
+  background: #5649c0;
+}
